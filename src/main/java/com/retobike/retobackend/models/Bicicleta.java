@@ -15,5 +15,7 @@ public class Bicicleta {
     private String tipo;
     private String color;
     private Boolean estado;
+    private Number lat;
+    private Number lon;
 
 }

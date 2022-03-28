@@ -34,6 +34,8 @@ public class BicicletaController {
         bicicletaFrom.setTipo(bicicleta.getTipo());
         bicicletaFrom.setColor(bicicleta.getColor());
         bicicletaFrom.setEstado(bicicleta.getEstado());
+        bicicletaFrom.setLat(bicicleta.getLat());
+        bicicletaFrom.setLon(bicicleta.getLon());
 
         return bicicletaRepository.save(bicicletaFrom);
     }
